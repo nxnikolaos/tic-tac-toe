@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.header{
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+    max-width: 600px;
+}
+
+.gameboard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: 2px solid black;
+    height: 600px;
+    width: 100%;
+}
